@@ -38,16 +38,18 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 
 1. Базовая структура оператора select (выборки данных из одной таблицы)
   * Однострочные функции
-    *	агрегатные функции (COUNT, SUM, AVG, MAX, MIN)
-    *	использование символьных, числовых и функций для работы с датами в командах SELECT
-    *	функции преобразования типов данных
-  * Группировка данных
+    *	[агрегатные функции](http://www.postgresql.org/docs/9.4/static/functions-aggregate.html) (COUNT, SUM, AVG, MAX, MIN)
+    *	использование [строковых](http://www.postgresql.org/docs/9.4/static/functions-string.html), [числовых](http://www.postgresql.org/docs/9.4/static/functions-math.html) и функций для работы с [датами](http://www.postgresql.org/docs/9.4/static/functions-datetime.html)
+    *	функции [преобразования типов данных](http://www.postgresql.org/docs/9.4/static/functions-formatting.html)
+    *	условные выражения: [CASE и COALESCE](http://www.postgresql.org/docs/9.4/static/functions-conditional.html)
+    *	[операторы сравнения строк](http://www.postgresql.org/docs/9.4/static/functions-matching.html): LIKE, SIMILAR TO и регулярные выражения
+  * [Группировка данных](http://www.postgresql.org/docs/9.4/static/queries-table-expressions.html#QUERIES-GROUP)
     * группировка данных с помощью фразы GROUP BY
     * исключение итоговых строк при помощи фразы HAVING
-  * Сортировка данных - фраза ORDER BY
-  * Ограничение размера результата выборки - фразы LIMIT и OFFSET
+  * Сортировка данных - фраза [ORDER BY](http://www.postgresql.org/docs/9.4/static/queries-order.html)
+  * Ограничение размера результата выборки - фразы [LIMIT и OFFSET](http://www.postgresql.org/docs/9.4/static/queries-limit.html)
 2. Выборка данных из нескольких таблиц
-  * соединения таблиц
+  * [соединения таблиц](http://www.postgresql.org/docs/9.4/static/queries-table-expressions.html#QUERIES-FROM)
     * декартово произведение - CROSS JOIN
     * внутренее соединение - INNER JOIN
       * эквисоединение - условия ON и USING
@@ -55,12 +57,12 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
     * внешние соединения (LEFT [OUTER] JOIN, RIGHT [OUTER] JOIN, FULL [OUTER] JOIN)
     * соединение более двух таблиц
     * соединение таблицы с собой
-  * соединения запросов
-    * операторы UNION [ALL], INTERSECT, MINUS
+  * объединение запросов
+    * [операторы UNION, INTERSECT, EXCEPT](http://www.postgresql.org/docs/9.4/static/queries-union.html)
   * Подзапросы
     * подзапросы в фразах FROM и HAVING
     * коррелированные подзапросы
-    * использование операторов EXISTS, ANY, SOME, ALL
+    * использование операторов [EXISTS, ANY, SOME, ALL, IN, NOT IN](http://www.postgresql.org/docs/9.4/static/functions-subquery.html)
 
 
 # Тема 2: Разработка схем данных

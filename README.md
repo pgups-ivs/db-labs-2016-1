@@ -14,7 +14,7 @@
 04.03.2016 | Оператор Select
 18.03.2016 | Оператор Select
 01.04.2016 | Операторы DDL. Разработка своей схемы.
-15.04.2016 | Операторы DDL. Разработка своей схемы.
+15.04.2016 | Операторы DML. Наполнение базы данных.
 29.04.2016 | Триггеры/Функции/Процедуры
 13.05.2016 | Триггеры/Функции/Процедуры
 27.05.2016 | защита работ
@@ -82,4 +82,15 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 * [UPDATE](http://www.postgresql.org/docs/9.4/static/sql-update.html)
 * [DELETE](http://www.postgresql.org/docs/9.4/static/sql-delete.html)
 
+Результатом изучения должнен быть набобр sql-скриптов, содержащих команды создания схемы, наполнения схемы данными, очистки и удаления схемы, плюс примеры обновления и удаления данных.
+
 # Тема 3: Хранимые процедуры
+В теме рассматриваются основы написания серверных процедур на языке [PL/pgSQL](http://www.postgresql.org/docs/9.4/static/plpgsql.html).
+
+Рассматриваются следующие вопросы:
+* Основы программирования на PL/pgSQL - [объявление](http://www.postgresql.org/docs/9.4/static/plpgsql-declarations.html) функций,  переменных, [управляющие операторы](http://www.postgresql.org/docs/9.4/static/plpgsql-control-structures.html) - условные операторы, циклы, обработка ошибок, [операции](http://www.postgresql.org/docs/9.4/static/plpgsql-statements.html) над данными
+* [Курсоры](http://www.postgresql.org/docs/9.4/static/plpgsql-cursors.html)
+* [Триггеры](http://www.postgresql.org/docs/9.4/static/triggers.hml) и [триггерные процедуры](http://www.postgresql.org/docs/9.4/static/plpgsql-trigger.html)
+* [Правила](http://www.postgresql.org/docs/9.4/static/rules.html)
+
+Результатом изучения должен быть sql-скрипт, демонстрирующий создание триггеров и функций в разработанной в предыдущей теме схеме данных.

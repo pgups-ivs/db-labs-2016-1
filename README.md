@@ -64,8 +64,22 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
     * коррелированные подзапросы
     * использование операторов [EXISTS, ANY, SOME, ALL, IN, NOT IN](http://www.postgresql.org/docs/9.4/static/functions-subquery.html)
 
+Результатом выполненных работ должны быть sql-скрипты, демонстрирующие применение перечисленных возможностей select.
 
 # Тема 2: Разработка схем данных
+Следующая тема для изучения - средства описания схем данных, операторы DDL - Data Definition Language. В документации Postgres есть соотвествующая глава - [Data Definition](http://www.postgresql.org/docs/9.4/static/ddl.html), на сайте PGT - серия уроков, начиная с [Create Table](http://www.postgresqltutorial.com/postgresql-create-table/).
 
+Изучаемые вопросы:
+* Создание таблиц - операция [CREATE TABLE](http://www.postgresql.org/docs/9.4/static/sql-createtable.html)
+* [Типы данных](http://www.postgresql.org/docs/9.4/static/datatype.html)
+* [Типы ограничений](http://www.postgresql.org/docs/9.4/static/ddl-constraints.html)
+* Создание [индексов](http://www.postgresql.org/docs/9.4/static/indexes.html)
+* Создание [представлений](http://www.postgresql.org/docs/9.4/static/rules-views.html) и [схем](http://www.postgresql.org/docs/9.4/static/ddl-schemas.html)
+* Изменение таблиц - операция [ALTER TABLE](http://www.postgresql.org/docs/9.4/static/ddl-alter.html)
+
+После описания схемы, изучаются операторы добавления и изменения данных в базе - [Data Manupulation Languate](http://www.postgresql.org/docs/9.4/static/dml.html):
+* [INSERT](http://www.postgresql.org/docs/9.4/static/sql-insert.html) и [COPY](http://www.postgresql.org/docs/9.4/static/sql-copy.html)
+* [UPDATE](http://www.postgresql.org/docs/9.4/static/sql-update.html)
+* [DELETE](http://www.postgresql.org/docs/9.4/static/sql-delete.html)
 
 # Тема 3: Хранимые процедуры

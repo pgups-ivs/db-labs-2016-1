@@ -29,7 +29,7 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 
 
 # Что читать
-В первую очередь стоит просмотреть обучающий раздел на сайте Postgresql.org ( [Tutorial](http://www.postgresql.org/docs/9.4/static/tutorial.html) ) и первые уроки на postresqltutorial.com. Также скачать электронные книги с диска F: или из чата.
+В первую очередь стоит просмотреть обучающий раздел на сайте Postgresql.org ( [Tutorial](http://www.postgresql.org/docs/9.4/static/tutorial.html) ) и первые уроки на [postresqltutorial.com](http://www.postgresqltutorial.com). Также можно скачать электронные книги с диска F: или из чата.
 
 # Тема 1: Оператор Select
 [Полный синтаксис оператора Select](http://www.postgresql.org/docs/9.4/static/sql-select.html)
@@ -89,9 +89,9 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 Задачи смотрите в файле [tasks2.md](tasks2.md)
 
 # Тема 3: Хранимые процедуры
-В теме рассматриваются основы написания серверных процедур на языке [PL/pgSQL](http://www.postgresql.org/docs/9.4/static/plpgsql.html).
+В теме рассматриваются основы написания серверных процедур на языке [PL/pgSQL](http://www.postgresql.org/docs/9.4/static/plpgsql.html). На сайте PG Tutorial отдельных уроков нет, но в схеме примера есть несколько функций, которые нужно изучить.
 
-Рассматриваются следующие вопросы:
+Вопросы в теме:
 * Основы программирования на PL/pgSQL - [объявление](http://www.postgresql.org/docs/9.4/static/plpgsql-declarations.html) функций,  переменных, [управляющие операторы](http://www.postgresql.org/docs/9.4/static/plpgsql-control-structures.html) - условные операторы, циклы, обработка ошибок, [операции](http://www.postgresql.org/docs/9.4/static/plpgsql-statements.html) над данными
 * [Курсоры](http://www.postgresql.org/docs/9.4/static/plpgsql-cursors.html)
 * [Триггеры](http://www.postgresql.org/docs/9.4/static/triggers.hml) и [триггерные процедуры](http://www.postgresql.org/docs/9.4/static/plpgsql-trigger.html)

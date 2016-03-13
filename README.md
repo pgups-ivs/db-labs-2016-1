@@ -69,7 +69,7 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 Результатом выполненных работ должны быть sql-скрипты, демонстрирующие применение перечисленных возможностей select.
 
 # Тема 2: Разработка схем данных
-Следующая тема для изучения - средства описания схем данных, операторы DDL - Data Definition Language. В документации Postgres есть соотвествующая глава - [Data Definition](http://www.postgresql.org/docs/9.4/static/ddl.html), на сайте PGT - серия уроков, начиная с [Create Table](http://www.postgresqltutorial.com/postgresql-create-table/).
+Следующая тема для изучения - средства описания схем данных, операторы DDL - Data Definition Language. В документации Postgres есть соотвествующая глава - [Data Definition](http://www.postgresql.org/docs/9.4/static/ddl.html), на сайте PGT - серия уроков, начиная с [Create Table](http://www.postgresqltutorial.com/postgresql-create-table/). В учебной схеме следует просмотреть скрипты создания таблиц и представлений.
 
 Изучаемые вопросы:
 * Создание таблиц - операция [CREATE TABLE](http://www.postgresql.org/docs/9.4/static/sql-createtable.html)
@@ -98,3 +98,5 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 * [Правила](http://www.postgresql.org/docs/9.4/static/rules.html)
 
 Результатом изучения должен быть sql-скрипт, демонстрирующий создание триггеров и функций в разработанной в предыдущей теме схеме данных.
+
+Задачи к теме см. в файле [tasks3.md](tasks3.md)

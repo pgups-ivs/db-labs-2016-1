@@ -64,6 +64,8 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
     * коррелированные подзапросы
     * использование операторов [EXISTS, ANY, SOME, ALL, IN, NOT IN](http://www.postgresql.org/docs/9.4/static/functions-subquery.html)
 
+Задачи смотрите в файле [tasks1.md](tasks1.md).
+
 Результатом выполненных работ должны быть sql-скрипты, демонстрирующие применение перечисленных возможностей select.
 
 # Тема 2: Разработка схем данных
@@ -82,7 +84,9 @@ http://www.postgresqltutorial.com/postgresql-sample-database/
 * [UPDATE](http://www.postgresql.org/docs/9.4/static/sql-update.html)
 * [DELETE](http://www.postgresql.org/docs/9.4/static/sql-delete.html)
 
-Результатом изучения должнен быть набобр sql-скриптов, содержащих команды создания схемы, наполнения схемы данными, очистки и удаления схемы, плюс примеры обновления и удаления данных.
+Результатом изучения должнен быть набор sql-скриптов, содержащих команды создания схемы, наполнения схемы данными, очистки и удаления схемы, плюс примеры обновления и удаления данных.
+
+Задачи смотрите в файле [tasks2.md](tasks2.md)
 
 # Тема 3: Хранимые процедуры
 В теме рассматриваются основы написания серверных процедур на языке [PL/pgSQL](http://www.postgresql.org/docs/9.4/static/plpgsql.html).
